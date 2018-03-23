@@ -1,0 +1,25 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+#git#
+..gitignore.swp
+
+# Maven
+log/
+target/
+
+#package files#
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
