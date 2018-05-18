@@ -1,14 +1,13 @@
 package com.opportunity.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class MainController {
+public class PostController {
 
-    @RequestMapping(value = "/index")
-    public String index(){
-        return "index";
-    }
+	@RequestMapping(value = "/newpost")
+	public String write() {
+		return "newpost";
+	}
 }
