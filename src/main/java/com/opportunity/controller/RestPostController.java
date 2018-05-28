@@ -15,7 +15,8 @@ public class RestPostController {
     private PostBo postBo;
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public void savePost(@RequestBody PostJS post){
-        postBo.buildPost(post);
+    public void savePost(@RequestBody String post){
+        //postBo.buildPost(post);
+        System.out.println("123");
     }
 }
