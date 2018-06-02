@@ -20,9 +20,9 @@
         </div>
     </div>
 </div>
-<blog:footer/>
-<jsp:invoke fragment="customScript"/>
 
+<jsp:invoke fragment="customScript"/>
+<blog:footer/>
 </body>
 
 </html>

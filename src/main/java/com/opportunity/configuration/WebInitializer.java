@@ -2,6 +2,8 @@ package com.opportunity.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.ServletRegistration;
+
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     protected Class<?>[] getRootConfigClasses() {
