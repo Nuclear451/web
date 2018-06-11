@@ -6,8 +6,9 @@
 
     <groupId>com.opportunity</groupId>
     <artifactId>web.blog</artifactId>
+
     <version>1.0-SNAPSHOT</version>
-    <!--<packaging>war</packaging>-->
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
@@ -52,6 +53,19 @@
             <version>3.0.1</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-servlet-api</artifactId>
+            <version>8.0.50</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jasper-el</artifactId>
+            <version>8.0.50</version>
+            <scope>provided</scope>
+        </dependency>
+
 
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -96,6 +110,16 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <server>tomcat-development-server</server>
+                    <port>8090</port>
+                    <path>/</path>
                 </configuration>
             </plugin>
         </plugins>

@@ -14,12 +14,12 @@
 
         <p class="lead">
             Feel free to contact with me.<br>
-            If you found a mistake (or mistakes) please say me.<br>
+            If you found a mistake (or mistakes) please tell me.<br>
             If you don't, in any way you are welcome.
         </p>
 
         <p class="lead">
-            <a href="https://www.w3schools.com">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/koryakovsky">LinkedIn</a>
             <a href="mailto:koryakovsky.ivan@gmail.com">Email</a>
             <a href="https://t.me/Koryakovsky">Telegram</a>
         </p>
