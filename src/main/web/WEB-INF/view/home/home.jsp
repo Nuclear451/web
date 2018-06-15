@@ -4,7 +4,7 @@
 <%@ taglib prefix="blog" tagdir="/WEB-INF/tags" %>
 
 <blog:layout pageName="home">
-    <div class="col-md-8">
+    <div id="posts_container" class="col-md-8">
 
         <h1 class="my-4">Page Heading
             <small>Secondary Text</small>
@@ -12,7 +12,6 @@
 
         <!-- Blog Post -->
         <div class="card mb-4">
-            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
             <div class="card-body">
                 <h2 class="card-title">Post Title</h2>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis

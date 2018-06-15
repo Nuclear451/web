@@ -21,13 +21,6 @@ import java.util.Properties;
 @ComponentScan(basePackages = "com.opportunity")
 @PropertySource(value = {"classpath:persistence.properties"})
 public class HibernateConfig {
-    //private static final Logger log = Logger.getLogger(HibernateConfig.class);
-
-    @PostConstruct
-    private void initInfo(){
-        System.out.println("Configuring " + HibernateConfig.class.getSimpleName());
-    }
-
     @Autowired
     private Environment env;
 
@@ -63,6 +56,7 @@ public class HibernateConfig {
         properties.put("hibernate.dialect", env.getRequiredProperty("hibernate.dialect"));
         properties.put("hibernate.show_sql", env.getRequiredProperty("hibernate.show_sql"));
         properties.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
+        properties.put("hibernate.format.sql", env.getProperty("hibernate.format.sql"));
         return properties;
     }
 }

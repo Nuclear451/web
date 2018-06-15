@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="blog" tagdir="/WEB-INF/tags" %>
 
-<blog:layout pageName="home">
+<blog:layout pageName="about">
     <div class="col-lg-8">
         <!-- Post Content -->
 

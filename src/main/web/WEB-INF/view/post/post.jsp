@@ -4,7 +4,7 @@
 <%@ taglib prefix="blog" tagdir="/WEB-INF/tags" %>
 
 
-<blog:layout pageName="home">
+<blog:layout pageName="post">
     <div class="col-lg-8">
 
         <!-- Blog Post -->

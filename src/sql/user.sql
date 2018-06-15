@@ -1,0 +1,6 @@
+CREATE TABLE blog.user(
+  user_id BIGINT NOT NULL PRIMARY KEY,
+  email VARCHAR(100) NOT NULL,
+  password VARCHAR(512) NOT NULL,
+  username VARCHAR(50)
+);
