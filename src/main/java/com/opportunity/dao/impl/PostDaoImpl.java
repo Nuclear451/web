@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Repository
@@ -25,6 +26,7 @@ public class PostDaoImpl implements PostDao {
 
 	@Override
 	public void save(Post post) {
+		post.setDate(LocalDate.now());
 		sessionFactory.getCurrentSession().save(post);
 	}
 }
