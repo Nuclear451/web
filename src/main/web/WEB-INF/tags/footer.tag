@@ -1,6 +1,6 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
-<footer class="py-3 bg-dark fixed-bottom">
+<footer style="opacity: 0.5"  class="py-3 bg-dark fixed-bottom">
         <p class="m-0 text-center text-white">Copyright &copy; Ivan Koryakovsky 2018</p>
 </footer>
 

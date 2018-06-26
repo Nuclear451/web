@@ -24,7 +24,7 @@ public class Post {
 	@Column(name = "post_text")
 	private String text;
 
-	private String tag;
+//	private String tag;
 
 	private LocalDate date;
 
@@ -53,14 +53,14 @@ public class Post {
 	public void setText(String text) {
 		this.text = text;
 	}
-
-	public String getTag() {
-		return tag;
-	}
-
-	public void setTag(String tag) {
-		this.tag = tag;
-	}
+//
+//	public String getTag() {
+//		return tag;
+//	}
+//
+//	public void setTag(String tag) {
+//		this.tag = tag;
+//	}
 
 	public LocalDate getDate() {
 		return date;

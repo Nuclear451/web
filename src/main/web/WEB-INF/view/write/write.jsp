@@ -18,6 +18,7 @@
 
         <hr/>
         <button id="send_post" class="btn">Submit</button>
+        <button id="mark_code" class="btn special">Mark as code</button>
     </div>
 </blog:layout>
 

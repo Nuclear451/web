@@ -4,18 +4,26 @@
 <%@ taglib prefix="blog" tagdir="/WEB-INF/tags" %>
 
 <blog:layout pageName="about">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/idea.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.3.0/highlightjs-line-numbers.min.js"></script>
+
+	<script>
+		hljs.initHighlightingOnLoad();
+    	hljs.initLineNumbersOnLoad();
+	</script>
     <div class="col-lg-8">
         <!-- Post Content -->
 
         <p class="lead" style="padding-top:20%;" >
-            Hello. My name is Ivan Koryakovsky. I am a web developer.<br>
+            Hello. My name is Ivan Koryakovsky. I am a java developer.<br>
             I curious in jvm internals, data science and few another IT stuffs.
         </p>
 
         <p class="lead">
             Feel free to contact with me.<br>
             If you found a mistake (or mistakes) please tell me.<br>
-            If you don't, in any way you are welcome.
         </p>
 
         <p class="lead">
