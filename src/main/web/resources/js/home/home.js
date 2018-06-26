@@ -25,7 +25,7 @@ function appendPosts(posts) {
         post = post.concat(posts[i].title + '</h2>');
         post = post.concat('<p class="card-text">');
         post = post.concat(posts[i].text.substring(0, 250) + '... </p>');
-        post = post.concat('<a href="#" class="btn btn-primary">Read More &rarr;</a>');
+        post = post.concat('<a href="/post?id=' + posts[i].postId  +'"  class=" btn btn-primary">Read More &rarr;</a>');
         post = post.concat('</div></div>');
         content = content.concat(post)
     }
