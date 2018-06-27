@@ -24,9 +24,11 @@ public class Post {
 	@Column(name = "post_text")
 	private String text;
 
-//	private String tag;
-
+	@Column(name = "post_date")
 	private LocalDate date;
+
+	@Column(name = "category_id")
+	private Long categoryId;
 
 	public String getTitle() {
 		return title;
@@ -53,14 +55,6 @@ public class Post {
 	public void setText(String text) {
 		this.text = text;
 	}
-//
-//	public String getTag() {
-//		return tag;
-//	}
-//
-//	public void setTag(String tag) {
-//		this.tag = tag;
-//	}
 
 	public LocalDate getDate() {
 		return date;
@@ -68,5 +62,13 @@ public class Post {
 
 	public void setDate(LocalDate date) {
 		this.date = date;
+	}
+
+	public Long getCategoryId() {
+		return categoryId;
+	}
+
+	public void setCategoryId(Long categoryId) {
+		this.categoryId = categoryId;
 	}
 }

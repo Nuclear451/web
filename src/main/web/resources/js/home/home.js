@@ -29,5 +29,5 @@ function appendPosts(posts) {
         post = post.concat('</div></div>');
         content = content.concat(post)
     }
-    $("#posts_container>.my-4").after(content);
+    $(".justify-content-center.mb-4").before(content);
 }

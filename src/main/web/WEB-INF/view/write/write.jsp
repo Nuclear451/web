@@ -12,6 +12,25 @@
         </div>
 
         <div class="form-group">
+            <select class="form-control" id="sel1">
+                <option value="1">Java</option>
+                <option value="2">JS</option>
+                <option value="3">Algorithms</option>
+                <option value="4">DataBases</option>
+                <option value="5">SQL</option>
+                <option value="6">Hibernate</option>
+                <option value="7">Spring</option>
+                <option value="8">BestPractices</option>
+                <option value="9">Testing</option>
+                <option value="10">Patterns</option>
+                <option value="11">Angular</option>
+                <option value="12">React</option>
+                <option value="13">Kotlin</option>
+                <option value="14">Python</option>
+            </select>
+        </div>
+
+        <div class="form-group">
             <label>Post:</label>
             <textarea class="form-control" rows="5" id="post"></textarea>
         </div>
